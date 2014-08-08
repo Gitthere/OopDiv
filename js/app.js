@@ -5,7 +5,6 @@ $(document).ready(function() {
     this.color = color;
     this.height = 50;
     this.width = 50;
-    // needs method
   };
   //**** can be done without creating 
   //new subclasses with code below
