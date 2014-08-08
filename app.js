@@ -7,7 +7,8 @@ $(document).ready(function() {
     this.width = 50;
     // needs method
   };
-
+  //**** can be done without creating 
+  //new subclasses with code below
   // //draw blue and red//new instances of box
   // var bluediv = new Box ('#000099');
   // var reddiv = new Box ('#FF0000');
@@ -59,13 +60,6 @@ $(document).ready(function() {
     });
   };
 
-
-    
-  
-  // //create reddiv class
-  // function Reddiv() {
-  //   Box.call(this, color);
-  // };
 
   //tell to draw box
     blueBox.draw();
